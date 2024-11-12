@@ -1,0 +1,48 @@
+{
+  "IsClose": {
+    "dynamicRankSupport": true,
+    "simplifiedKeyMode": 0,
+    "binaryList": [
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=0,p=0/4,2/4,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_8bbdbcac6187ad53238e8958ca9755ac.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=1,p=0/4,2/4,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_8bbdbcac6187ad53238e8958ca9755ac.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=0,p=0/3,2/3,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_4e747a6b9e48ca8bb060ddb930c5080b.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=1,p=0/3,2/3,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_4e747a6b9e48ca8bb060ddb930c5080b.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=0,p=0/1,2/1,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_8fb3c580ce9534b878f1ca42d2483cd5.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=1,p=0/1,2/1,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_8fb3c580ce9534b878f1ca42d2483cd5.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=0,p=0/0,2/0,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_c727970057bb5b48903c1f9612cfc198.o"
+      },
+      {
+        "coreType": 2,
+        "simplifiedKey": "IsClose/d=1,p=0/0,2/0,2/12,2",
+        "binPath": "ascend310b/is_close/IsClose_c727970057bb5b48903c1f9612cfc198.o"
+      }
+    ]
+  }
+}

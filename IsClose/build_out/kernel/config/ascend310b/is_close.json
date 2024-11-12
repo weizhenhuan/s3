@@ -1,0 +1,252 @@
+{
+  "binList": [
+    {
+      "simplifiedKey": [
+        "IsClose/d=0,p=0/4,2/4,2/12,2",
+        "IsClose/d=1,p=0/4,2/4,2/12,2"
+      ],
+      "staticKey": "2fb2468c5e6146d42244025ce50e8d868fda97275f3a746e2daea096f94c66bc",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "uint8",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "rtol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "atol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "equal_nan",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/is_close/IsClose_8bbdbcac6187ad53238e8958ca9755ac.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "IsClose/d=0,p=0/3,2/3,2/12,2",
+        "IsClose/d=1,p=0/3,2/3,2/12,2"
+      ],
+      "staticKey": "3e909874ca2c34dbcd7c83ae6aad6b0ac8c9ec8bd7dc1433abe7a7b2e1a6de61",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "int32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "rtol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "atol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "equal_nan",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/is_close/IsClose_4e747a6b9e48ca8bb060ddb930c5080b.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "IsClose/d=0,p=0/1,2/1,2/12,2",
+        "IsClose/d=1,p=0/1,2/1,2/12,2"
+      ],
+      "staticKey": "f23bf8c95314b5c5c3507dca95db4d809b0c754585a1376dd6e9662a42c11244",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float16",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "rtol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "atol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "equal_nan",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/is_close/IsClose_8fb3c580ce9534b878f1ca42d2483cd5.json"
+      }
+    },
+    {
+      "simplifiedKey": [
+        "IsClose/d=0,p=0/0,2/0,2/12,2",
+        "IsClose/d=1,p=0/0,2/0,2/12,2"
+      ],
+      "staticKey": "ceff480038226927b6e2012efd612909df17e70099e3ee74623aae3aee127a15",
+      "int64Mode": false,
+      "inputs": [
+        {
+          "name": "x1",
+          "index": 0,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        },
+        {
+          "name": "x2",
+          "index": 1,
+          "dtype": "float32",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "outputs": [
+        {
+          "name": "y",
+          "index": 0,
+          "dtype": "bool",
+          "format": "ND",
+          "paramType": "required",
+          "shape": [
+            -2
+          ]
+        }
+      ],
+      "attrs": [
+        {
+          "name": "rtol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "atol",
+          "dtype": "float",
+          "value": 0.0
+        },
+        {
+          "name": "equal_nan",
+          "dtype": "bool",
+          "value": false
+        }
+      ],
+      "binInfo": {
+        "jsonFilePath": "ascend310b/is_close/IsClose_c727970057bb5b48903c1f9612cfc198.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+    "binFileName": "IsClose_8bbdbcac6187ad53238e8958ca9755ac",
+    "binFileSuffix": ".o",
+    "blockDim": -1,
+    "coreType": "VectorCore",
+    "core_type": "AIV",
+    "kernelName": "IsClose_8bbdbcac6187ad53238e8958ca9755ac",
+    "magic": "RT_DEV_BINARY_MAGIC_ELF",
+    "memoryStamping": [],
+    "opParaSize": 40,
+    "parameters": [],
+    "sha256": "137c1acfca9b648a525f4df69878f09a49756bcacec2987270f6b896b4f286a5",
+    "workspace": {
+        "num": 1,
+        "size": [
+            -1
+        ],
+        "type": [
+            0
+        ]
+    },
+    "kernelList": [
+        {
+            "kernelName": "IsClose_8bbdbcac6187ad53238e8958ca9755ac_0"
+        }
+    ],
+    "optionalInputMode": "gen_placeholder",
+    "compileInfo": {},
+    "supportInfo": {
+        "implMode": "",
+        "int64Mode": false,
+        "simplifiedKeyMode": 0,
+        "simplifiedKey": [
+            "IsClose/d=0,p=0/4,2/4,2/12,2",
+            "IsClose/d=1,p=0/4,2/4,2/12,2"
+        ],
+        "staticKey": "2fb2468c5e6146d42244025ce50e8d868fda97275f3a746e2daea096f94c66bc",
+        "inputs": [
+            {
+                "name": "x1",
+                "index": 0,
+                "dtype": "uint8",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            },
+            {
+                "name": "x2",
+                "index": 1,
+                "dtype": "uint8",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "name": "y",
+                "index": 0,
+                "dtype": "bool",
+                "format": "ND",
+                "paramType": "required",
+                "shape": [
+                    -2
+                ]
+            }
+        ],
+        "attrs": [
+            {
+                "name": "rtol",
+                "dtype": "float",
+                "value": 0.0
+            },
+            {
+                "name": "atol",
+                "dtype": "float",
+                "value": 0.0
+            },
+            {
+                "name": "equal_nan",
+                "dtype": "bool",
+                "value": false
+            }
+        ],
+        "opMode": "dynamic",
+        "optionalInputMode": "gen_placeholder",
+        "deterministic": "ignore"
+    }
+}

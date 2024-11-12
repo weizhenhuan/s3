@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/HwHiAiUser/contest/Mish/build_out/framework/tf_plugin",
+  "command": "/usr/bin/c++ -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_tf_parsers_EXPORTS -Dgoogle=ascend_private -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_tf_parsers.dir/tensorflow_mish_plugin.cc.o -c /home/HwHiAiUser/contest/Mish/framework/tf_plugin/tensorflow_mish_plugin.cc",
+  "file": "/home/HwHiAiUser/contest/Mish/framework/tf_plugin/tensorflow_mish_plugin.cc"
+},
+{
+  "directory": "/home/HwHiAiUser/contest/Mish/build_out/op_host",
+  "command": "/usr/bin/c++ -DOP_PROTO_LIB -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_op_proto_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fvisibility=hidden -fPIC -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_op_proto.dir/mish.cpp.o -c /home/HwHiAiUser/contest/Mish/op_host/mish.cpp",
+  "file": "/home/HwHiAiUser/contest/Mish/op_host/mish.cpp"
+},
+{
+  "directory": "/home/HwHiAiUser/contest/Mish/build_out/op_host",
+  "command": "/usr/bin/c++ -DOP_PROTO_LIB -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_op_proto_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fvisibility=hidden -fPIC -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_op_proto.dir/__/autogen/op_proto.cc.o -c /home/HwHiAiUser/contest/Mish/build_out/autogen/op_proto.cc",
+  "file": "/home/HwHiAiUser/contest/Mish/build_out/autogen/op_proto.cc"
+},
+{
+  "directory": "/home/HwHiAiUser/contest/Mish/build_out/op_host",
+  "command": "/usr/bin/c++ -DOP_TILING_LIB -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_optiling_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fvisibility=hidden -fPIC -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_optiling.dir/mish.cpp.o -c /home/HwHiAiUser/contest/Mish/op_host/mish.cpp",
+  "file": "/home/HwHiAiUser/contest/Mish/op_host/mish.cpp"
+},
+{
+  "directory": "/home/HwHiAiUser/contest/Mish/build_out/op_host",
+  "command": "/usr/bin/c++ -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_opapi_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_opapi.dir/__/autogen/aclnn_mish.cpp.o -c /home/HwHiAiUser/contest/Mish/build_out/autogen/aclnn_mish.cpp",
+  "file": "/home/HwHiAiUser/contest/Mish/build_out/autogen/aclnn_mish.cpp"
+},
+{
+    "directory": "/home/HwHiAiUser/weizhenhuan/s3/IsClose/op_kernel",
+    "command": "/usr/bin/c++ -DASCENDC_CPU_DEBUG=1 -D_GLIBCXX_USE_CXX11_ABI=0 -D__CCE_AICORE__=300 -D__CCE_KT_TEST__=1 -D__DAV_M300__  -I/usr/local/Ascend/ascend-toolkit/latest/acllib/include -I/home/HwHiAiUser/workspace/samples/operator/AddCustomSample/KernelLaunch/AddKernelInvocation  -isystem /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/lib/include  -isystem /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/../../include  -isystem /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/../../compiler/tikcpp/tikcfw  -isystem /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/../../compiler/tikcpp/tikcfw/impl  -isystem /usr/local/Ascend/ascend-toolkit/latest/tools/tikicpulib/../../compiler/tikcpp/tikcfw/interface -g -std=c++17 -o CMakeFiles/add_cpu.dir/__/__/add_custom.cpp.o -c /home/HwHiAiUser/workspace/samples/operator/AddCustomSample/KernelLaunch/AddKernelInvocation/add_custom.cpp",
+    "file": "/home/HwHiAiUser/s3/IsClose/op_kernel/is_close.cpp"
+}
+]

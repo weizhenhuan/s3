@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/HwHiAiUser/s3/IsClose/build_out/framework/tf_plugin",
+  "command": "/usr/bin/c++ -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_tf_parsers_EXPORTS -Dgoogle=ascend_private -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_tf_parsers.dir/tensorflow_is_close_plugin.cc.o -c /home/HwHiAiUser/s3/IsClose/framework/tf_plugin/tensorflow_is_close_plugin.cc",
+  "file": "/home/HwHiAiUser/s3/IsClose/framework/tf_plugin/tensorflow_is_close_plugin.cc"
+},
+{
+  "directory": "/home/HwHiAiUser/s3/IsClose/build_out/op_host",
+  "command": "/usr/bin/c++ -DOP_PROTO_LIB -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_op_proto_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fvisibility=hidden -fPIC -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_op_proto.dir/is_close.cpp.o -c /home/HwHiAiUser/s3/IsClose/op_host/is_close.cpp",
+  "file": "/home/HwHiAiUser/s3/IsClose/op_host/is_close.cpp"
+},
+{
+  "directory": "/home/HwHiAiUser/s3/IsClose/build_out/op_host",
+  "command": "/usr/bin/c++ -DOP_PROTO_LIB -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_op_proto_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fvisibility=hidden -fPIC -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_op_proto.dir/__/autogen/op_proto.cc.o -c /home/HwHiAiUser/s3/IsClose/build_out/autogen/op_proto.cc",
+  "file": "/home/HwHiAiUser/s3/IsClose/build_out/autogen/op_proto.cc"
+},
+{
+  "directory": "/home/HwHiAiUser/s3/IsClose/build_out/op_host",
+  "command": "/usr/bin/c++ -DOP_TILING_LIB -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_optiling_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fvisibility=hidden -fPIC -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_optiling.dir/is_close.cpp.o -c /home/HwHiAiUser/s3/IsClose/op_host/is_close.cpp",
+  "file": "/home/HwHiAiUser/s3/IsClose/op_host/is_close.cpp"
+},
+{
+  "directory": "/home/HwHiAiUser/s3/IsClose/build_out/op_host",
+  "command": "/usr/bin/c++ -D_FORTIFY_SOURCE=2 -D_GLIBCXX_USE_CXX11_ABI=0 -Dcust_opapi_EXPORTS -I/usr/local/Ascend/ascend-toolkit/latest/include -fPIC -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -O2 -std=c++11 -fstack-protector-strong -o CMakeFiles/cust_opapi.dir/__/autogen/aclnn_is_close.cpp.o -c /home/HwHiAiUser/s3/IsClose/build_out/autogen/aclnn_is_close.cpp",
+  "file": "/home/HwHiAiUser/s3/IsClose/build_out/autogen/aclnn_is_close.cpp"
+}
+]
